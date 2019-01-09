@@ -8,10 +8,10 @@ setuptools.setup(
     version="0.0.1",
     author="Harikeshav R aka TheProgrammingKid",
     author_email="r.harikeshav@gmail.com",
-    description="A creddential manager for handling login, signup etc in your python projects.",
+    description="A credential manager for handling login, signup etc in your python projects.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/TheProgrammingKid/credential_manager",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
