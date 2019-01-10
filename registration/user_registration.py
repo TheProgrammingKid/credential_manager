@@ -10,7 +10,7 @@ class User(object):
         self.passwords_file = os.path.join(self.path, '.client_passwords', 'passwords.txt')
         self.compiler = compiler.Compiler()
         
-    def reegister(self):
+    def register(self):
         with open(self.usernames_file) as f:
             f.write(slf.username)
             with open(self.paswords_file) as ff:
